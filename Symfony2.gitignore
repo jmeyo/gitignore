@@ -1,16 +1,18 @@
+# from gitignore / Symfony2.gitignore @github
+
 # Bootstrap
-app/bootstrap*
+/app/bootstrap*
 
 # Symfony directories
-vendor/*
+/vendor/*
 */logs/*
 */cache/*
-web/uploads/*
-web/bundles/*
+/web/uploads/*
+/web/bundles/*
 
 # Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
+/app/config/parameters.ini
+/app/config/parameters.yml
 
 ## generic files to ignore
 *~
@@ -20,8 +22,8 @@ app/config/parameters.yml
 *.out
 
 ## IDE files to ignore
-bootstrap.sublime-workspace
-nbproject/
+/bootstrap.sublime-workspace
+/nbproject/
 .idea/
 *.tmproj
 .buildpath
@@ -29,18 +31,18 @@ nbproject/
 .settings/
 
 # envvars
-bin/envvars
+/bin/envvars
 
 # to have the possibility to have an own htaccess e.g. with protection (as on prod)
-web/.htaccess
+/web/.htaccess
 
 # ignore compiled files (see config.yml assetic: read_from)
-web/compiled/
+/web/compiled/
 
 # ignore parameters so everone can have its own
-app/config/parameters.yml
+/app/config/parameters.yml
 
 # ignore MopaRemoteUpdateBundle bin files
-bin/post-composer.sh
-bin/envvars.default
-app/Resources/mopa_remote_update.sqlite
+/bin/post-composer.sh
+/bin/envvars.default
+/app/Resources/mopa_remote_update.sqlite
